@@ -59,7 +59,7 @@ public class Stepdef1 {
 		driver.findElement(By.xpath("//*[@id='uefTable_0_tableEl']/tbody/tr[1]/td[1]/a")).click();
 		   String Title =driver.getCurrentUrl();	
 		   
-		    System.out.println(Title);
+		    System.out.println("Current URL is :"+Title);
 		
 	  
 	}
